@@ -44,7 +44,7 @@
 		href="https://www.powerlanguage.co.uk/wordle/"
 		target="_blank">Wordle</a
 	>
-	by Josh Wardle with additional modes and features. Written with Svelte, in Typescript by
+	with additional modes and features. Written with Svelte, in Typescript by
 	<a href="https://github.com/krish-shahh" target="_blank">Krish Shah</a>.
 	<br />
 	Open the settings menu to see some of the additional features.
