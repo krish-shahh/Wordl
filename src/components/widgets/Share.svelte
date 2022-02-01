@@ -11,7 +11,9 @@
 	$: stats = `${modeData.modes[$mode].name} Wordl #${state.wordNumber} ${
 		state.guesses <= ROWS ? state.guesses : "X"
 	}/${state.board.words.length}\n\n    ${state.board.state
-		.slice(0, state.guesses);
+		.slice(0, state.guesses)
+		.map((r) => r.join(""))
+		.join("\n    ")}\`;
 </script>
 
 <div
