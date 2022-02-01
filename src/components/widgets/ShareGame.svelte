@@ -12,7 +12,7 @@
 
 	function share() {
 		toaster.pop("Copied");
-		navigator.clipboard.writeText(`${window.location.href}/${wordNumber}`);
+		navigator.clipboard.writeText(`${window.location.href}`);
 	}
 </script>
 
