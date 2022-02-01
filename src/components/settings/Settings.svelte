@@ -74,7 +74,6 @@
 					toaster.pop("localStorage cleared");
 				}}
 			>
-				{modeData.modes[$mode].name} word #{wordNumber}
 			</div>
 		</div>
 	</div>
