@@ -35,6 +35,10 @@
 			navigator.serviceWorker.register("./sw.js");
 		}
 	</script>
+	<script>view.on("double-click", function(evt){
+		evt.stopPropagation();
+	  });
+	</script>
 
 	<script defer src="build/bundle.js"></script>
 	<title>Wordl</title>
