@@ -12973,7 +12973,10 @@ const words = {
 		"zygal",
 		"zygon",
 		"zymes",
-		"zymic"
+		"zymic",
+		"david",
+		"arnav",
+		"krish"
 	]
 };
 export default words;
