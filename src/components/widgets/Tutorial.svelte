@@ -47,6 +47,7 @@
 	with additional modes and features. Written with Svelte, in Typescript by
 	<a href="https://github.com/krish-shahh" target="_blank">Krish Shah</a>.
 	<br />
+	<br />
 	Open the settings menu to see some of the additional features.
 </div>
 
