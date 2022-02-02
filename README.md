@@ -15,7 +15,7 @@ A recreation of the popular game [Wordle](https://www.powerlanguage.co.uk/wordle
 - The game mode is reflected in the url, allowing you to share a game mode directly.
 - Service worker which allows the game to be easily downloaded as a progressive web app and run offline.
 
-## Additional modes
+## Additional Modes
 **Hourly mode**: A new word every hour.
 
 **Infinite mode**: A new word every time you refresh, for the true addicts.
