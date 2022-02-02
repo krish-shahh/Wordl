@@ -1,7 +1,6 @@
 # Wordl
 ---
-A recreation of the popular game [Wordle](https://www.powerlanguage.co.uk/wordle/) by Josh Wardle, with additional modes and features.
-Hosted on GitHub pages [here](https://mikhad.github.io/wordle/).
+A recreation of the popular game [Wordle](https://www.powerlanguage.co.uk/wordle/) by [Josh Wardle](https://github.com/powerlanguage), with additional modes and features. Hosted on GitHub pages [here](https://wordl-beta.vercel.app).
 
 ## Additional Features
 - Words are chosen from the list of words at random instead of in sequence, and the solution is not stored in localStorage, making it harder to cheat. The seed for the random number is created from the date, ensuring that everyone gets the same random number, so people can still compare answers.
@@ -16,7 +15,7 @@ Hosted on GitHub pages [here](https://mikhad.github.io/wordle/).
 - The game mode is reflected in the url, allowing you to share a game mode directly.
 - Service worker which allows the game to be easily downloaded as a progressive web app and run offline.
 
-## Additional modes
+## Additional Modes
 **Hourly mode**: A new word every hour.
 
 **Infinite mode**: A new word every time you refresh, for the true addicts.
