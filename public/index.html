@@ -35,9 +35,34 @@
 			navigator.serviceWorker.register("./sw.js");
 		}
 	</script>
-	<script>view.on("double-click", function(evt){
-		evt.stopPropagation();
-	  });
+	<script>
+		view.on("double-click", function(evt){
+			evt.stopPropagation();
+		});
+
+		view.on("key-down", function(evt){
+			var prohibitedKeys = [ "+", "-", "Shift", "_", "=" ];
+			var keyPressed = evt.key;
+			if(prohibitedKeys.indexOf(keyPressed) !== -1){
+				evt.stopPropagation();
+			}
+		});
+
+		view.on("mouse-wheel", function(evt){
+			evt.stopPropagation();
+		});
+
+		view.on("drag", function(evt){
+			evt.stopPropagation();
+		});
+
+		view.on("drag", ["Shift"], function(evt){
+			evt.stopPropagation();
+		});
+
+		view.on("drag", ["Shift", "Control"], function(evt){
+			evt.stopPropagation();
+		});
 	</script>
 
 	<script defer src="build/bundle.js"></script>
