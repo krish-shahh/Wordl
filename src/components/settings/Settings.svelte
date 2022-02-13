@@ -59,7 +59,7 @@
 			<span slot="desc">The game mode determines how often the word refreshes</span>
 		</Setting>
 		<div class="links">
-			<a href="mailto:2003kshah@gmail.com" target="_blank">Report a Bug</a>
+			<a href="mailto:2003kshah@gmail.com?subject=Wordl Bug Report" target="_blank">Report a Bug</a>
 		</div>
 		<Tips index={tip} />
 	</div>
