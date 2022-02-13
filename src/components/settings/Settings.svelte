@@ -61,11 +61,6 @@
 		<div class="links">
 			<a href="mailto:2003kshah@gmail.com?subject=Wordl Bug Report" target="_blank">Report a Bug</a>
 		</div>
-		<div>
-		<script>
-			window.location.href="https://twitter.com/share?url="+ encodeURIComponent(window.location.href)+"&text="+document.title;
-		</script>
-		</div>
 		<Tips index={tip} />
 	</div>
 	<div class="footer">
